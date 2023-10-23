@@ -49,13 +49,13 @@ class Application(tk.Tk):
             "whitespaces": self.var_whitespaces.get()
         }
         
-        self.title = tk.Label(
+        self.screen_title = tk.Label(
             text="GERADOR DE SENHAS", 
             font=("Arial", 14, "bold"),
             bg=self.AZUL_ESCURO, 
             fg=self.AZUL_BEBE
         )
-        self.title.grid(
+        self.screen_title.grid(
             row=0, 
             column=0, 
             columnspan=2, 
